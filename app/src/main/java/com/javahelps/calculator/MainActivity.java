@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
                 lastDot = true; // Result contains a dot
             } catch (ArithmeticException ex) {
                 // Display an error message
-                txtScreen.setText("Error");
+                txtScreen.setText(getString(R.string.Error));
                 stateError = true;
                 lastNumeric = false;
             }
